@@ -1,0 +1,12 @@
+{
+  "name": "tarot-by-shivangi-shah",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Tarot By Shivangi Shah — static site",
+  "scripts": {
+    "start": "serve -l tcp://0.0.0.0:${PORT:-3000}"
+  },
+  "dependencies": {
+    "serve": "^14.2.4"
+  }
+}
