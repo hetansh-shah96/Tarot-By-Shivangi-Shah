@@ -215,6 +215,13 @@ section { padding: 96px 0; }
   border: 1px dashed color-mix(in oklab, var(--accent) 45%, transparent);
   pointer-events: none;
 }
+.about-img {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  object-fit: cover;
+  display: block;
+}
 .about-copy { display: grid; gap: 20px; justify-items: start; }
 .about-copy h2 { font-size: clamp(32px, 4vw, 46px); }
 .about-copy p { color: var(--ink-soft); }
